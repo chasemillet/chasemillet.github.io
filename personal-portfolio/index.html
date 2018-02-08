@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <ul class="nav justify-content" id="nav">
+    <div class="col-8">
+      <img src="images/name.png" class="img-fluid" id="name" alt="Responsive image">
+    </div>
+    <li class="nav-item">
+      <a class="nav-link text-white float-right" href="#aboutmestart">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white float-right" href="#myworkstart">My Work</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white float-right" href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <div class="jumbotron jumbotron-fluid" id="jumbo">
+    <div class="container" id="jumbo2">
+      <h1 class="display-4">Hi.</h1>
+      <p class="lead font-weight-bold" id="jumbotext">My name is Chase Millet and I am a web developer living in Spanish Fork Utah.
+        <br> Design and development is my passion.</p>
+    </div>
+  </div>
+  <!-- About Me Section -->
+  <a name="aboutmestart"></a>
+  <div id="sectionstart">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">About Me</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row" id="aboutme">
+      <div class="media">
+        <img class="align-self-center mr-3" src="images/profilepic.jpg" alt="Generic placeholder image">
+        <div class="media-body">
+          <h1 class="mt-0" id="about">About:</h1>
+          <p>I am currently attending the University of Utah Coding bootcamp. I will be finishing in March with a certificate in my field. I am also enrolled but not attending
+            currently at Utah Valley University persuing a bachelors in Software Development. I have about experience in designing web sites and photo editing for clients. 
+          </p>
+          <p class="mb-0">Outside of my work life I am a family man. I have been married for 6+ years and have a beautiful year old son. I enjoy the outdoors and 
+            learning new things. 
+          </p>
+          <br>
+          <h2 id="frontback">Front End:</h2>
+          <p>I have experience with HTML, CSS, Javascript, Materialize, and Bootstrap. I love front end languages and what they can provide.</p>
+          <h2 id="frontback">Back End:</h2>
+          <p>I have worked with Firebase, MongoDB, Handlebars, Using API's, MySQL, mocha/chai, Heroku, and still expanding. Learning the guts of these systems
+            is facinating and I love what I do.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- My Work Section -->
+  <a name="myworkstart"></a>
+  <div id="sectionstart">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">My Work</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="cards1">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="images/profile.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Explore Utah Project</h5>
+          <p class="card-text">Class project. worked on html and css of profile page. Worked on a team of 4 other devs to complete this project.
+            The idea was to create a social media app for outdoor activities in Utah. Html and layout for Explore Utah was
+            created through a library called Materialize.
+          </p>
+          <a href="https://glacial-river-83546.herokuapp.com/user/1">
+            <button type="button" class="btn btn-danger">Explore Utah</button>
+          </a>
+          <a href="https://github.com/pritchettausten/project2">
+            <button type="button" class="btn btn-danger">Explore repo</button>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images/crystal.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Crystal Collector</h5>
+          <p class="card-text">Goal of the game is to select the right crystals to achieve a numbered goal. game randomly generates numbers for
+            each crystal. Game also tracks the number of wins and losses.
+          </p>
+          <br>
+          <a href="https://chasemillet.github.io/crystal-collector/">
+            <button type="button" class="btn btn-danger">Crystal Collector Site</button>
+          </a>
+          <a href="https://github.com/chasemillet/crystal-collector">
+            <button type="button" class="btn btn-danger">Repo for game</button>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images/ww2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">WW2 Trivia Game</h5>
+          <p class="card-text">Created a short World War 2 trivia game out of Javascript.</p>
+          <a href="https://chasemillet.github.io/Trivia-game/">
+            <button type="button" class="btn btn-danger">WW2 trivia site</button>
+          </a>
+          <a href="https://github.com/chasemillet/Trivia-game">
+            <button type="button" class="btn btn-danger">Repo for game</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+                  
+<!--Footer-->
+<a name="contact"></a>
+<footer class="page-footer blue center-on-small-only">
+        <div class="container-fluid"   id="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="title" id="contact">Contact</h5>
+                    <p>Please Reach out to me should you have any questions.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="https://github.com/chasemillet">My Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/chase-millet-2aa095b9/">My Linkedin</a></li>
+                        <li>My Email: Chase.Millet@Gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/.Footer-->
+  </div>
+
+
+
+  <div class="container-fluid" id="footer">
+    ...
+  </div>
+
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
