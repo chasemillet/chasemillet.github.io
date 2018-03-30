@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#top{
+    
+}
+#header{
+    height: 500px;
+    background: linear-gradient(rgba(146, 146, 146, 0.45), 
+    rgba(146, 146, 146, 0.45) ), url(images/keyboard.jpg) fixed;
+    
+    
+}
+#header2{
+    height: 300px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#hello{
+    margin-top: 3%;
+    margin-left: 19%;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#headtext{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px;
+    width: 855px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .07em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 855px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0) }
+  }
+#name{
+    width: 200px; 
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#row1{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ul {
+    display: inline-block;
+    font-size: 20px;
+  }
+#row2{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#row3{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#row4{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#row5{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Colorfull Sample colors
+#FC4445
+#3FEEE6
+#55BCC9
+#97CAEF
+#CAFAFE
+ */
+ /* mountain color #df2104 */
